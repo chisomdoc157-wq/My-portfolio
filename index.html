@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/portfolio icon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend web developer specializing in responsive, modern websites for businesses and individuals."
+    />
+    <title>Okonkwo Chisom — Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        emailjs.init({
+            publicKey: "egPaBv2ha1nL4S3Qw"
+        });
+    </script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+
+    <!-- Skip link for keyboard users -->
+    <a href="#hero" class="skip-link">Skip to content</a>
+
+    <!-- ===== Navigation ===== -->
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo" aria-label="Home">
+          Okonkwo<span class="accent">Chisom</span>
+          <span class="nav-logo-role">/ Developer</span>
+        </a>
+
+        <nav class="nav-links" id="nav-links" aria-label="Primary navigation">
+          <a href="#hero" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#contact" class="btn btn-primary nav-cta">Let's Work Together</a>
+        </nav>
+
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== Hero ===== -->
+      <section class="hero" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-text reveal">
+            <span class="hero-eyebrow">Frontend Developer</span>
+            <h1 class="hero-title">
+              I Build Modern Websites That Help Businesses Stand Out.
+            </h1>
+            <p class="hero-subtitle">
+              I'm a frontend web developer focused on creating responsive,
+              modern, and user-friendly websites for businesses and
+              individuals.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-ghost">Let's Work Together</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-hidden="true">
+            <div class="code-editor">
+              <div class="editor-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="editor-filename">Chisom.js</span>
+              </div>
+              
+              <pre class="editor-body"><code><span class="c-keyword">const</span> <span class="c-fn">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">'Okonkwo Chisom'</span>,
+  <span class="c-prop">role</span>: <span class="c-str">'Frontend Developer'</span>,
+  <span class="c-prop">skills</span>: [<span class="c-str">'HTML'</span>, <span class="c-str">'CSS'</span>, <span class="c-str">'JavaScript'</span>],
+  <span class="c-prop">available</span>: <span class="c-bool">true</span>,
+  <span class="c-fn">build</span>(<span class="c-param">idea</span>) {
+    <span class="c-keyword">return</span> <span class="c-fn">createWebsite</span>(idea)
+  }
+}</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+        </div>
+
+</section>
+
+      <!-- ===== About ===== -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">01 — About</span>
+            <h2 class="section-title">A bit about me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                Hello, I'm Diamond a frontend web developer who builds clean, responsive
+                websites that help businesses look professional online. I care
+                about the details — readable typography, smooth interactions,
+                and layouts that work on every screen.
+              </p>
+
+              <p>
+                I write semantic HTML, modern CSS, and vanilla JavaScript that's
+                easy to maintain. Whether it's a business site, a landing page,
+                or a full redesign, I focus on creating something that's fast,
+                accessible, and genuinely useful for the people who visit it.
+              </p>
+            </div>
+
+            <div class="about-skills reveal">
+              <h3 class="skills-heading">Skills &amp; Technologies</h3>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+                  <div>
+                    <span class="skill-name">HTML5</span>
+                    <span class="skill-desc">Semantic, accessible markup</span>
+                  </div>
+                </li>
+
+                <li class="skill-item">
+                  <span class="skill-icon" aria-hidden="true">#</span>
+                  <div>
+                    <span class="skill-name">CSS3</span>
+                    <span class="skill-desc">Flexbox, Grid, animations</span>
+                  </div>
+                </li>
+
+                
+                <li class="skill-item">
+                  <span class="skill-icon" aria-hidden="true">JS</span>
+                  <div>
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-desc">Vanilla ES6+, DOM APIs</span>
+                  </div>
+                </li>
+
+                <li class="skill-item">
+                  <span class="skill-icon" aria-hidden="true">📱</span>
+                  <div>
+                    <span class="skill-name">Responsive Design</span>
+                    <span class="skill-desc">Mobile-first, all devices</span>
+                  </div>
+                </li>
+                
+                <li class="skill-item">
+                  <span class="skill-icon" aria-hidden="true"> <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.8 1.7 1.7.8.2-1 .6-1.7.6-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.5 18 4.8 18 4.8c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg></span>
+                  <div>
+                    <span class="skill-name">GITHUB</span>
+                    <span class="skill-desc">Storing data, website hosting, Teamwork</span>
+                  </div>
+                </li>
+
+                <li class="skill-item">
+                  <span class="skill-icon" aria-hidden="true" style="font-size: 1.5rem;">▲</span>
+                  <div>
+                    <span class="skill-name">Vercel</span>
+                    <span class="skill-desc">Deployment, hosting, CI/CD</span>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Projects ===== -->
+      <section class="section section-alt" id="projects">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">02 — Projects</span>
+            <h2 class="section-title">Featured work</h2>
+            <p class="section-subtitle">
+              A selection of projects I've built for real businesses.
+            </p>
+          </div>
+
+          <!-- Project 1: Big C Gym -->
+          <article class="project-card reveal">
+            <div class="project-screenshot sch-bg" aria-hidden="true">
+              <img src="images/portofolio sch ss.png" alt="Bright Future Academy website screenshot" />
+              <div class="project-overlay">
+                <!-- <img src="images/Portofolio sch ss.png" alt=""> -->
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name"> Bright Future Academy</h3>
+              <p class="project-description">
+                A responsive School website with Gallery section, admission guidance,
+                 and a contact form.
+              </p>
+              <div class="project-detail">
+                <span class="detail-label">Problem it solves</span>
+                <p>
+                  The website reduces the stress and time involved in physically visiting
+                  a school just to make basic inquiries. Parents and prospective students 
+                  can explore the school, learn about its programs and facilities, make initial inquiries from anywhere.
+                </p>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
+              <div class="project-links">
+                <a href="https://bright-future-academy-nu.vercel.app/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/chisomdoc157-wq/bright-future-academy " class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>      
+
+          <!-- Project 1: Big C Gym -->
+          <!-- <article class="project-card reveal">
+            <div class="project-screenshot gym-bg" aria-hidden="true">
+              <div class="project-overlay">
+                <span class="project-emoji">🏋️</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Big C Gym</h3>
+              <p class="project-description">
+                A responsive gym website with subscription plans, personal
+                training information, and a signup experience.
+              </p>
+              <div class="project-detail">
+                <span class="detail-label">Problem it solves</span>
+                <p>
+                  Gives a local gym a professional online presence so potential
+                  members can explore plans and sign up without visiting in
+                  person.
+                </p>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article> -->
+
+          
+          <!-- Project 3: Rossy Beauty Place -->
+          <article class="project-card reveal">
+            <div class="project-screenshot beauty-bg" aria-hidden="true">
+              <img src="images/Rossy beauty ss.png" alt="Rossy Beauty Place website screenshot" />
+              <div class="project-overlay">
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Rossy Beauty Place</h3>
+              <p class="project-description">
+                A beauty/hair business website designed to showcase hairstyles,
+                customer reviews, and provide a direct WhatsApp call-to-action.
+              </p>
+              <div class="project-detail">
+                <span class="detail-label">Problem it solves</span>
+                <p>
+                  Helps a beauty business display its work and convert visitors
+                  into clients through a one-tap WhatsApp booking flow.
+                </p>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">WhatsApp API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://rossy-beauty-place.vercel.app/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/chisomdoc157-wq/rossy-beauty-place" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: PMAN-KING AUTOS -->
+          <article class="project-card reveal">
+            <div class="project-screenshot autos-bg" aria-hidden="true">
+              <img src="images/Portofolio autos ss.png" alt="PMAN-KING AUTOS website screenshot"/>
+              <div class="project-overlay">
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">PMAN-KING AUTOS</h3>
+              <p class="project-description">
+                A professional car dealership website currently in development, designed to showcase
+                vehicles and make it easy for customers to contact the business.
+              </p>
+              <div class="project-detail">
+                <span class="detail-label">Problem it solves</span>
+                <p>
+                  Lets customers browse available vehicles online and reach the
+                  dealership directly, reducing friction in the buying journey.
+                </p>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-primary btn-sm" target="_blank" rel="noopener">In-Development</a>
+                <a href="#" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Coming soon</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== Services ===== -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">03 — Services</span>
+            <h2 class="section-title">What I can do for you</h2>
+            <p class="section-subtitle">
+              Focused on delivering websites that are fast, responsive, and
+              built to grow with your business.
+            </p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-globe" style="color: #9d7fff;"></i></div>
+              <h3 class="service-name">Business Websites</h3>
+              <p class="service-text">
+                A professional website that represents your business, tells
+                your story, and gives customers a clear way to reach you.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-rocket" style="color: #9d7fff;"></i></div>
+              <h3 class="service-name">Landing Pages</h3>
+              <p class="service-text">
+                High-converting single-page sites designed to promote a product,
+                campaign, or launch and drive visitors toward action.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-mobile-button" style="color: #9d7fff"></i></div>
+              <h3 class="service-name">Responsive Web Design</h3>
+              <p class="service-text">
+                Websites that look and work great on phones, tablets, and
+                desktops — built mobile-first so nothing breaks at any size.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-palette" style="color: #9d7fff;"></i></div>
+              <h3 class="service-name">Website Redesign</h3>
+              <p class="service-text">
+                A modern refresh of your existing site — better performance,
+                cleaner design, and improved user experience without starting
+                from scratch.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Why Work With Me ===== -->
+      <section class="section section-alt" id="why">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">04 — Why Me</span>
+            <h2 class="section-title">Why work with me</h2>
+            <p class="section-subtitle">
+              I focus on the things that actually matter to you and your
+              visitors.
+            </p>
+          </div>
+          <div class="why-grid">
+            <div class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"></div>
+              <h3>Responsive across devices</h3>
+              <p>
+                Every site I build works cleanly on phones, tablets, and
+                desktops — no awkward scrolling or broken layouts.
+              </p>
+            </div>
+            <div class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"></div>
+              <h3>Clean and maintainable code</h3>
+              <p>
+                I write organized, readable code that's easy to update later —
+                so you're never locked into something you can't change.
+              </p>
+            </div>
+            <div class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"></div>
+              <h3>Modern UI</h3>
+              <p>
+                Thoughtful layouts, good typography, and subtle motion that
+                feels current without being distracting.
+              </p>
+            </div>
+            <div class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"></div>
+              <h3>User-focused design</h3>
+              <p>
+                I build for the people who'll actually use your site — clear
+                navigation, fast load times, and accessible structure.
+              </p>
+            </div>
+            <div class="why-item reveal">
+              <div class="why-icon" aria-hidden="true"></div>
+              <h3>Clear communication</h3>
+              <p>
+                You'll always know where your project stands. I keep things
+                straightforward, honest, and on track.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Contact ===== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">05 — Contact</span>
+            <h2 class="section-title">Let's work together</h2>
+            <p class="section-subtitle">
+              Have a project in mind? Send me a message and I'll get back to you.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <form  class="contact-form reveal" id="contact-form" novalidate>
+              
+
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name" />
+                <span class="form-error" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+                <span class="form-error" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+                <span class="form-error" id="subject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <span class="form-error" id="message-error"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              <p class="form-success" id="form-success" role="status" hidden>
+                Thanks! Your message has been sent. I'll get back to you soon.
+              </p>
+            </form>
+            <aside class="contact-social reveal">
+              <h3 class="contact-social-title">Other ways to reach me</h3>
+              <a href="https://github.com/chisomdoc157-wq" class="social-link" target="_blank" rel="noopener">
+                <span class="social-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.8 1.7 1.7.8.2-1 .6-1.7.6-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.5 18 4.8 18 4.8c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+                </span>
+                <span>
+                  <span class="social-label">GitHub</span>
+                  <span class="social-handle">@chisomdoc157-wq</span>
+                </span>
+              </a>
+              <a href="https://instagram.com/codeorbit.dev" class="social-link" target="_blank" rel="noopener">
+                <span class="social-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.5-1.3.9-.4.4-.7.8-.9 1.3-.2.4-.3 1-.4 2.1C2.5 8.5 2.5 8.9 2.5 12s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.5.9.9 1.3.4.4.8.7 1.3.9.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.5 1.3-.9.4-.4.7-.8.9-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.5-.9-.9-1.3-.4-.4-.8-.7-1.3-.9-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8zm0 8a3.1 3.1 0 1 0 0-6.2 3.1 3.1 0 0 0 0 6.2zm6.3-8.2a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/></svg>
+                </span>
+                <span>
+                  <span class="social-label">Instagram</span>
+                  <span class="social-handle">@codeorbit.dev</span>
+                </span>
+              </a>
+              <a href="https://wa.me/+2348062840442" class="social-link" target="_blank" rel="noopener">
+                <span class="social-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4zM12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-2.9-.4-4.2-1.1l-.3-.2-2.9.8.8-2.8-.2-.3a8.2 8.2 0 1 1 6.8 3.6z"/></svg>
+                </span>
+                <span>
+                  <span class="social-label">WhatsApp</span>
+                  <span class="social-handle">+234 806 284 0442</span>
+                </span>
+              </a>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">Okonkwo<span class="accent">Chisom</span></a>
+          <p class="footer-role">Frontend Developer</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a href="https://github.com/chisomdoc157-wq" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.8 1.7 1.7.8.2-1 .6-1.7.6-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 4.5 18 4.8 18 4.8c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+          </a>
+          <a href="https://instagram.com/codeorbit.dev" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.5-1.3.9-.4.4-.7.8-.9 1.3-.2.4-.3 1-.4 2.1C2.5 8.5 2.5 8.9 2.5 12s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.5.9.9 1.3.4.4.8.7 1.3.9.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.5 1.3-.9.4-.4.7-.8.9-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.5-.9-.9-1.3-.4-.4-.8-.7-1.3-.9-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8zm0 8a3.1 3.1 0 1 0 0-6.2 3.1 3.1 0 0 0 0 6.2zm6.3-8.2a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/></svg>
+          </a>
+          <a href="https://wa.me/+2348062840442" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.2-.6-.4zM12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-2.9-.4-4.2-1.1l-.3-.2-2.9.8.8-2.8-.2-.3a8.2 8.2 0 1 1 6.8 3.6z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Okonkwo Chisom. All rights reserved.</p>
+    </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script type="module" src="/js/script.js"></script>
+  </body>
+</html>
+
